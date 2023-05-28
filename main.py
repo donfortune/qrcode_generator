@@ -1,4 +1,4 @@
-import qrcode
+import qrcode #library for creating qr code
 link = "https://www.instagram.com"
 img = qrcode.make(link)
 print(img)
